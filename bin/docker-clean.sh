@@ -2,11 +2,24 @@
 
 # Clean the containers
 CONTAINERS=`docker ps -aq`
-docker rm $CONTAINERS
+if [ -n "$CONTAINERS" ]; then 
+    docker rm $CONTAINERS
+else
+    echo "No containers to clean"
+fi
+
 
 # Clean the volumes
 VOLUMES=`docker volume ls -q`
-docker volume rm $VOLUMES
+if [ -n "$VOLUMES" ]; then 
+    docker volume rm $VOLUMES
+else
+    echo "No volumes to clean"
+fi
 
 IMAGES=`docker images -q`
-docker rmi $IMAGES
+if [ -n "$IMAGES" ]; then 
+    docker rmi $IMAGES
+else
+    echo "No images to clean"
+fi
