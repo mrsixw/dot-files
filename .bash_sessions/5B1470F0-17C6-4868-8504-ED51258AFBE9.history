@@ -1,0 +1,5 @@
+ssh-keygen 
+git
+ssh root@10.209.122.124 
+ip
+ifconfig 

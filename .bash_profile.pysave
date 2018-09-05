@@ -1,0 +1,10 @@
+# Bash profile. Source the bashrc. Needed on Mac as terminal is login shell and sources this
+
+export ETHAN_SVN_MIRRORS=svn+ssh://svnuser@cf-skyeng-svn.cisco.com/mnt/svnuser/bskybmirror
+
+[[ -s ~/.bashrc ]] && source ~/.bashrc
+
+# Setting PATH for Python 2.7
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export PATH

@@ -1,0 +1,67 @@
+cd git_repos/jenkins_jumpstart/
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+python promote_check.py --version C287752 --email stevenw2@cisco.com --enable_check_job --dms U28.1.97
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters,master_database -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters,master_database -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters,master_database -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters,master_database -u root -vv | grep stop
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters,master_database -u root -vv 
+pip
+pip install python-jenkins
+pip install python-jenkins
+pip update
+pip
+pip install --help
+pip update
+pip upgrade
+pip install python-jenkins
+pip install --upgrade pip
+pip --version
+python
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+ls
+mv get-pip.py ~/Downloads/
+python ~/Downloads/get-pip.py 
+pip --version
+pip install --upgrade pip
+pip install python-jenkins

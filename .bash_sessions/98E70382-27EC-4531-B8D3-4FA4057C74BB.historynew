@@ -1,0 +1,3 @@
+scp -r root@ethan-pipeline.cisco.com:/var/lib/jenkins/credentials.xml .
+rm credentials.xml 
+ssh root@ethan-pipeline.cisco.com

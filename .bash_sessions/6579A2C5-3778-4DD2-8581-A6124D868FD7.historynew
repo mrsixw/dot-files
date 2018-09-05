@@ -1,0 +1,37 @@
+set
+vim .bashrc 
+config_data
+source .bashrc 
+fly_darwin_amd64.dms 
+cd concourse/
+docker login -t local -c http://localhost:8080
+fly_darwin_amd64.dms login -t local -c http://localhost:8080
+pwd
+ls
+fly_darwin_amd64.dms -t local set-pipeline -c ethan_pipeline.yml 
+fly_darwin_amd64.dms -t local set-pipeline -c ethan_pipeline.yml -p demo
+fly_darwin_amd64.dms -t local set-pipeline -c ethan_pipeline.yml -p demo
+fly_darwin_amd64.dms --version
+docker login -t local -c http://127.0.0.1:8080
+fly_darwin_amd64.dms login -t local -c http://127.0.0.1:8080
+fly_darwin_amd64.dms -t local set-pipeline -p ethan -c ethan_pipeline.yml 
+fly_darwin_amd64.dms -t local set-pipeline -p ethan -c ethan_pipeline.yml  --help
+fly_darwin_amd64.dms -t local set-pipeline -p ethan -c ethan_pipeline.yml  -l credentials.yml 
+fly_darwin_amd64.dms -t local set-pipeline -p ethan -c ethan_pipeline.yml  -l credentials.yml 
+cp credentials.yml ~/git_repos/Ethan_CI_3/
+cd ~/git_repos/Ethan_CI_3/
+ls
+fly_darwin_amd64.dms -t local set-pipeline -p ethan -c ethan_pipeline.yml  -l credentials.yml 
+fly_darwin_amd64.dms -t local set-pipeline -p ethan -c ethan_pipeline.yml  -l credentials.yml 
+fly_darwin_amd64.dms -t local set-pipeline -p ethan -c ethan_pipeline.yml  -l credentials.yml 
+fly_darwin_amd64.dms -t local set-pipeline -p ethan -c ethan_pipeline.yml  -l credentials.yml 
+cd ..
+ls
+git clone ssh://stevenw2@wwwin-git-gpk-2.cisco.com:29418/ETHAN_SI_SCRIPTS
+cd ..
+mkdir svn_repos
+cd svn_repos/
+svn 
+svn help
+svn co svn+ssh://svnuser@cf-skyeng-svn.cisco.com
+svn co svn+ssh://svnuser@cf-skyeng-svn.cisco.com

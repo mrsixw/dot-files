@@ -1,0 +1,18 @@
+curl
+mkdir tmp
+cd tmp/
+curl -uanonymous:AP2EFr2f7J1FtW5TaLHfqAyqQRk -O "http://hudkinsartifactory.cisco.com:8081/artifactory/formal_builds/<TARGET_FILE_PATH>"
+curl -uanonymous:AP2EFr2f7J1FtW5TaLHfqAyqQRk -O "http://hudkinsartifactory.cisco.com:8081/artifactory/formal_builds/Q/formal/Q000/Q__formal__Q000__Q000.018.31.00__FSI__bskyb-falcon-d1__cust_trials__C__1-signed.FLA"
+ls al
+ls
+ls -al
+ls -alh
+curl -uanonymous:AP2EFr2f7J1FtW5TaLHfqAyqQRk -O "http://hudkinsartifactory.cisco.com:8081/artifactory/formal_builds/Q/formal/Q000/Q000.018.31.00/Q__formal__Q000__Q000.018.31.00__FSI__bskyb-falcon-d1__cust_trials__C__1-signed.FLA"
+ls -alh
+cat Q__formal__Q000__Q000.018.31.00__FSI__bskyb-falcon-d1__cust_trials__C__1-signed.FLA 
+curl -H 'X-JFrog-Art-Api: AKCp5bB3hFVgYjFUfczVvKgKqcfrJoYYzgmzv8kDY3b2SfWmCenSGPwdtnmKwRuJzAWB66x85' -O "http://hudkinsartifactory.cisco.com:8081/artifactory/formal_builds/Q/formal/Q000/Q000.018.31.00/Q__formal__Q000__Q000.018.31.00__FSI__bskyb-falcon-d1__cust_trials__C__1-signed.FLA"
+ls
+curl -uadmin:AP2ZNcJHYEagLLfJ -T Q__formal__Q000__Q000.018.31.00__FSI__bskyb-falcon-d1__cust_trials__C__1-signed.FLA "http://10.209.122.141:8081/artifactory/generic-local/modeule/build.1.fla"
+curl -uadmin:AP2ZNcJHYEagLLfJ -T Q__formal__Q000__Q000.018.31.00__FSI__bskyb-falcon-d1__cust_trials__C__1-signed.FLA "http://10.209.122.141:8081/artifactory/generic-local/org/module/build.1.fla"
+curl http://hudkinsartifactory.cisco.com:8081/artifactory/steddy_test/a/b/boogywoogy
+curl http://hudkinsartifactory.cisco.com:8081/artifactory/steddy_test/minion_hi.jpg

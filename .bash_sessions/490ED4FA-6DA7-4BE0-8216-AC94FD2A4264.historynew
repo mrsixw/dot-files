@@ -1,0 +1,150 @@
+pip --version
+pip install python-jenkins
+pip install pbr
+pip install python-jenkins
+pwd
+cd git_repos/jenkins_jumpstart/
+ansible-galaxy install geerlingguy.postgresql -p ./roles/
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-galaxy --help
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+brew list
+brew cask list
+which python
+which pip
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv -e /Library/Frameworks/Python.framework/Versions/2.7/bin/python
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv -e 'ansible_python_interpreter=/Library/Frameworks/Python.framework/Versions/2.7/bin/python'
+which python
+ls -al /Library/Frameworks/Python.framework/Versions/2.7/bin/python
+ls -al /Library/Frameworks/Python.framework/Versions/2.7/bin/python2
+ls -al /Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
+ls -al /Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv -e 'ansible_python_interpreter=/Library/Frameworks/Python.framework/Versions/2.7'
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+set
+env
+export PATH=:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Users/steve/bin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Users/steve/bin
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Users/steve/bin"
+env
+python --version
+pip --version
+bah
+bash
+env
+which python
+ls /usr/local/bin/
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv --limit @/Users/steve/git_repos/jenkins_jumpstart/jenkins_master_play.retry
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv --limit @/Users/steve/git_repos/jenkins_jumpstart/jenkins_master_play.retry
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv --limit @/Users/steve/git_repos/jenkins_jumpstart/jenkins_master_play.retry
+java -jar jenkins-cli.jar -s http://ethan-pipeline.cisco.com:8080/ list-plugins 
+java -jar jenkins-cli.jar -s http://ethan-pipeline.cisco.com:8080/ list-plugins --help
+java -jar jenkins-cli.jar -s http://ethan-pipeline.cisco.com:8080/ --help
+java -jar jenkins-cli.jar -s http://ethan-pipeline.cisco.com:8080/ -help
+java -jar jenkins-cli.jar --help
+java -jar jenkins-cli.jar -s http://ethan-pipeline.cisco.com:8080/ -auth stevenw2:7KW-kD6-qkM-Ysc list-plugins 
+java -jar jenkins-cli.jar -s http://10.209.122.168:8080/ -auth admin:admin list-plugins ~ 
+java -jar jenkins-cli.jar -s http://10.209.122.168:8080/ -auth admin:admin list-plugins | cut -d ' ' -f 1
+java -jar jenkins-cli.jar -s http://ethan-pipeline.cisco.com:8080/ -auth stevenw2:7KW-kD6-qkM-Ysc list-plugins | cut -d ' ' -f 1
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv --limit @/Users/steve/git_repos/jenkins_jumpstart/jenkins_master_play.retry
+java -jar jenkins-cli.jar -s http://ethan-pipeline.cisco.com:8080/ -auth stevenw2:7KW-kD6-qkM-Ysc list-plugins 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv --limit @/Users/steve/git_repos/jenkins_jumpstart/jenkins_master_play.retry
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv --limit @/Users/steve/git_repos/jenkins_jumpstart/jenkins_master_play.retry
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv --limit @/Users/steve/git_repos/jenkins_jumpstart/jenkins_master_play.retry
+java -jar jenkins-cli.jar -s http://ethan-pipeline.cisco.com:8080/ -auth stevenw2:7KW-kD6-qkM-Ysc list-plugins 
+java -jar jenkins-cli.jar -s http://10.209.122.168:8080/ -auth admin:admin list-plugins 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv --limit @/Users/steve/git_repos/jenkins_jumpstart/jenkins_master_play.retry
+java -jar jenkins-cli.jar -s http://10.209.122.168:8080/ -auth admin:admin list-plugins 
+java -jar jenkins-cli.jar -s http://ethan-pipeline.cisco.com:8080/ -auth stevenw2:7KW-kD6-qkM-Ysc list-plugins 
+java -jar jenkins-cli.jar -s http://10.209.122.168:8080/ -auth admin:admin list-plugins 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv --limit @/Users/steve/git_repos/jenkins_jumpstart/jenkins_master_play.retry
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+cd secrets/
+ls
+ls -al
+cd ..
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml  -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml  -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv 
+tree
+brew install tree
+tree
+tree secrets
+ansible-playbook -i hosts jenkins_master_play.yml -l master_database -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l master_database -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l master_database -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l master_database -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l master_database -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l master_database -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l master_database -u root -vv 
+ansible-playbook -i hosts jenkins_master_play.yml -l master_database -u root -vv 
+cd ..
+ls
+cd STB_SW/
+git pull
+git checkout BSKYB_HQ000_ETHAN_Int
+git merge git merge U28.2.99
+git merge git merge master/U28.2.99
+git merge git merge master/U28.2.99
+git merge master/U28.2.99
+cd ../jenkins_jumpstart/
+ls
+vmrun 
+vmrun 
+vmrun listvms
+vmrun listSnapshots
+vmrun list
+vmrun listSnapshots --help
+vmrun listSnapshots -help
+vmrun listSnapshots /Users/steve/Documents/Virtual Machines.localized/Centos 7 Jenkins.vmwarevm/Centos 7 Jenkins.vmx
+vmrun listSnapshots "/Users/steve/Documents/Virtual Machines.localized/Centos 7 Jenkins.vmwarevm/Centos 7 Jenkins.vmx"
+vmrun revertToSnapshot "/Users/steve/Documents/Virtual Machines.localized/Centos 7 Jenkins.vmwarevm/Centos 7 Jenkins.vmx"
+vmrun revertToSnapshot "/Users/steve/Documents/Virtual Machines.localized/Centos 7 Jenkins.vmwarevm/Centos 7 Jenkins.vmx" Snapshot
+vmrun revertToSnapshot "/Users/steve/Documents/Virtual Machines.localized/Centos 7 Jenkins.vmwarevm/Centos 7 Jenkins.vmx" Snapshot && vmrun start "/Users/steve/Documents/Virtual Machines.localized/Centos 7 Jenkins.vmwarevm/Centos 7 Jenkins.vmx"
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+ansible-playbook -i hosts jenkins_master_play.yml -l jenkins_masters -u root -vv
+pip install docker-py
+make
+npm
+cd ../awx/
+cd installer/
+ansible-playbook -i inventory install.yml 
+sudo ansible-playbook -i inventory install.yml 
+sudo ansible-playbook -i inventory install.yml 
+ansible-playbook -i inventory install.yml 
+docker-compose 
+ls ~/var/lib/awx/docker-compose.yml 
+cat ~/var/lib/awx/docker-compose.yml 
+docker-compose ~/var/lib/awx/docker-compose.yml 
+docker-compose start ~/var/lib/awx/docker-compose.yml 
+docker-compose up ~/var/lib/awx/docker-compose.yml 
+docker-compose up
+docker-compose up --help
+docker-compose --help
+docker-compose -f ~/var/lib/awx/docker-compose.yml up

@@ -1,0 +1,36 @@
+ansible-playbook -i hosts jenkins_master_play.yml 
+ansible-playbook -i hosts jenkins_master_play.yml 
+ansible-playbook -i hosts jenkins_master_play.yml 
+ssh 10.209.122.127 
+ssh root@10.209.122.127 
+ssh root@10.209.122.127 
+ansible-playbook -i hosts jenkins_master_play.yml 
+ansible-playbook -i hosts jenkins_master_play.yml 
+ansible-playbook -i hosts jenkins_master_play.yml 
+ansible-playbook -i hosts jenkins_master_play.yml 
+ansible-playbook -i hosts jenkins_master_play.yml 
+docker ps
+brew install jfrog-cli-go
+cd ../demo/
+ls
+echo "# demo" >> README.md
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github3.cisco.com:stevenw2/demo.git
+git push -u origin master
+cat ~/.ssh/id_rsa
+l
+echo `date`
+echo `date`
+echo `date`
+echo `date` >> README.md 
+cd ../jenkins_jumpstart/
+ls
+ansible-playbook -i hosts jenkins_master_play.yml --help
+ansible-playbook -i hosts jenkins_master_play.yml -l artifactory
+ansible-playbook -i hosts jenkins_master_play.yml --help
+ansible-playbook -i hosts jenkins_master_play.yml -t artifactory
+ansible-playbook -i hosts jenkins_master_play.yml -t artifactory
+ansible-playbook -i hosts jenkins_master_play.yml 
+ansible-playbook -i hosts jenkins_master_play.yml 
+ansible-playbook -i hosts jenkins_master_play.yml 
