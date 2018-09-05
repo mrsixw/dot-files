@@ -1,8 +1,0 @@
-cd git_repos/HudkinsHostConfig/
-ls
-cd ansible_ssh_keys/
-l
-ls
-cp ~/.ssh/id_rsa.pub stevenw2_id_rsa.pub
-s
-ls
