@@ -11,7 +11,7 @@ if [ -f "/usr/local/opt/bash-git-prompt/share/gitprompt.sh" ]; then
 fi
 
 # bash completion
-
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
 # Setting PATH for Python 2.7
 # The original version is saved in .bash_profile.pysave
