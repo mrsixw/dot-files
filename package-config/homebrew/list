@@ -2,6 +2,8 @@ archey
 bash-completion
 bash-git-prompt
 coreutils
+docker-machine
+docker-machine-driver-xhyve
 fontconfig
 freetype
 gd
@@ -11,6 +13,8 @@ git
 graphviz
 jfrog-cli-go
 jpeg
+kubernetes-cli
+libev
 libidn2
 libpng
 libtiff
