@@ -1,0 +1,7 @@
+[user]
+	name = Steve Williams
+	email = mrsixw@gmail.com
+[status]
+	submoduleSummary = true
+[diff]
+	submodule = log
