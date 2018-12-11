@@ -1,5 +1,6 @@
 adns
 archey
+bash
 bash-completion
 bash-git-prompt
 coreutils
@@ -18,6 +19,7 @@ graphviz
 groovy
 jfrog-cli-go
 jpeg
+jq
 kubernetes-cli
 libassuan
 libev
@@ -34,6 +36,7 @@ libunistring
 libusb
 nettle
 npth
+oniguruma
 openssl
 p11-kit
 pinentry
