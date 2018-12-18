@@ -6,6 +6,7 @@ bash-git-prompt
 coreutils
 docker-machine
 dos2unix
+erlang
 fontconfig
 freetype
 gd
@@ -42,6 +43,7 @@ p11-kit
 pinentry
 pipenv
 python
+rabbitmq
 readline
 sqlite
 sshpass
@@ -49,4 +51,5 @@ telnet
 tree
 webp
 wget
+wxmac
 xz
